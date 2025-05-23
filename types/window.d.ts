@@ -5,7 +5,7 @@ declare interface Preload {
     translator: import('../app/src/preload/translator').default;
     clipboard: {
         writeText(str: string): void;
-    }
+    };
     rendererRouter: import('../app/src/preload/rendererRouter').default; //instance
     os: string;
 }
